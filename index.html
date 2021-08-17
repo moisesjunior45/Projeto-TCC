@@ -190,7 +190,7 @@
             <!--Formulário-->
             <div class="col-lg-6 col-md-6 col-xs-12">
               <div class="formulario">
-                 <form id="form-contato" action="Formulario.php" method="POST">
+                 <form id="form-contato" action="Formulário.php" method="POST" name="formulario">
                   <div class="row">
                     <h2>Realize abaixo a sua <em>Pré Matricula</em></h2>
                     <p>Após deixar suas informações entraremos em contato, através do E-mail ou telefone. <em> Os campos marcados com * são obrigatórios.</em></p>
@@ -202,19 +202,19 @@
                     
                     <div class="col-md-6 col-sm-12">
                       <fieldset>
-                        <input name="email" type="email" id="email"  placeholder="Seu E-mail*" required maxlength="40">
+                        <input name="email" type="email" id="email"  placeholder="Seu E-mail*"  required maxlength="40">
                       </fieldset>
                     </div>
                     <div class="col-md-6 col-sm-12">
                       <fieldset>
-                        <input name="telefone" type="tel" id="telefone"  placeholder="Seu telefone*"  required onkeypress="mascara(this, '## #####-####')" maxlength="13">
+                        <input name="telefone" type="text" id="telefone"  placeholder="Seu telefone*"  required onkeypress="mascara(this, '## #####-####'); return somenteNumeros(event)"  maxlength="13" onkeypress="somenteNumeros()">
                       </fieldset>
                     </div>
 
                     <div class="col-md-6 col-sm-12 col-lg-12"> 
                       <fieldset> 
-                        <select name="select" id="select"> 
-                          <option value="selecao">Selecione o Plano</option>
+                        <select name="select" id="select" required> 
+                          <option value="">Selecione o Plano*</option>
                           <option value="Plano Basico">Plano Básico</option>
                           <option value="Plano Intermediário">Plano Intermediário</option>
                           <option value="Plano Vip">Plano Vip</option>
@@ -229,7 +229,7 @@
                     </div>
                     <div class="col-lg-12">
                       <fieldset>
-                        <button type="submit" id="form-submit" class="main-button">Enviar</button>
+                        <button type="submit" id="form-submit" class="main-button" onclick="validar()">Enviar</button>
                       </fieldset>
                     </div>
                   </div>
@@ -278,5 +278,13 @@
 
               <!--Links Mascara-->
     <script src="Js/mascara.js"></script>
+
+              <!--Link Validação-->
+    <script src="Js/validar.js"></script>
+
+              <!--Link validação somente de números-->
+    <script src="Js/telefone.js"></script>
+
+
 </body>
 </html>
