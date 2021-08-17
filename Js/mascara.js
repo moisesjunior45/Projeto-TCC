@@ -1,3 +1,4 @@
+        // Função para Máscaras de campo(Telefone)
 function mascara(t, mask) {
     var i = t.value.length;
     var saida = mask.substring(1,0);
@@ -6,3 +7,5 @@ function mascara(t, mask) {
     t.value += texto.substring(0,1);
 }
 }
+
+
