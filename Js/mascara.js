@@ -8,4 +8,3 @@ function mascara(t, mask) {
 }
 }
 
-

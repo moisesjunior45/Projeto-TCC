@@ -1,3 +1,4 @@
+// Função para usar Somente números em um campo
 function somenteNumeros(e) {
     var charCode = e.charCode ? e.charCode : e.keyCode;
     // charCode 8 = backspace   

@@ -28,6 +28,3 @@ function validar() {
  }
     alert("Pré Matrícula realizada com sucesso, entraremos em contato!!");
 }
-
-
-// Função para usar Somente números em um campo
