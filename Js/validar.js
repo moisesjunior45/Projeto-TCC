@@ -26,5 +26,4 @@ function validar() {
         select.focus();
         return;
  }
-    alert("Pré Matrícula realizada com sucesso, entraremos em contato!!");
 }

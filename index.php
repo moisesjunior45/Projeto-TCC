@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAXFIT</title>
+    <link rel="shortcut icon" href="media/favicon-projeto.png" type="image/x-icon">
+    <!-- CSS Bootstrap -->
+      <link rel="stylesheet" type="text/css" href="Css/bootstrap.min.css">
+   <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">-->
+  
+    <!--Links CSS-->
+    <link rel="stylesheet" type="text/css"  href="Css/template.css">
+
+</head>
+<body>
+
+                                            <!--Inicio Preloader-->
+    <div id="js-preloader" class="js-preloader">
+      <div class="preloader-inner">
+        <span class="dot"></span>
+        <div class="dots">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+                                            <!--Fim Preloader-->  
+    <!--<script>
+        window.onload = function () { alert("ATENÇÃO!\n Esse site tem o objetivo de servir para apresentações e testes, portanto a academia é ficticia") } 
+    </script>-->
+                                            
+                                            <!--Inicio Header-->
+    <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="nav-menu">
+                                            <!--Inicio Logo-->
+                        <a href="index.php" class="logo">MAX<em>FIT</em></a>
+                                            <!--Fim logo-->
+                                            <!--Inicio Menu-->
+                        <ul class="nav">
+                            <li class="scrool-to-section"><a href="#inicio" class="active">Início</a></li>
+                            <li class="scrool-to-section"><a href="#sobre">Sobre</a></li>
+                            <li class="scrool-to-section"><a href="#planos">Planos</a></li>
+                            <li class="scrool-to-section"><a href="#contatos">Contatos</a></li>
+                            
+                            <li class="main-button"><a href="#matricula">Pré Matrícula</a></li>
+                        </ul>
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+                                            <!--Fim Menu-->        
+                    </nav>
+                 </div>
+            </div>
+        </div>
+    </header>
+                                            <!--Fim Header-->
+                                            <!--Inicio Área do banner(video)-->
+    <div class="main-banner" id="inicio">
+        <video autoplay muted loop id="bg-video">
+            <source src="media/Gym-video2.mp4" type="video/mp4" />
+        </video>
+
+        <div class="video-overlay header-text">
+            <div class="caption">
+                <h6>Não pense, comece hoje.</h6>
+                <h2>Conheça nossa <em>Academia</em></h2>
+                <div class="main-button scrool-to-section">
+                    <a href="#sobre">Clique aqui</a>
+                </div>
+            </div>
+        </div>
+    </div>
+                                            <!--Fim Área do banner(video)-->
+
+                                            <!--Inicio Sobre-->
+    <section class="section" id="sobre">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-heading">
+                        <h2>Sobre a <em>Academia</em></h2>
+                        <i class="fas fa-dumbbell"></i>
+                        <p>A primeira Academia MaxFit inaugurou em 2018, em Recife (sede), e tem uma inauguração prevista de outra academia em Olinda ano que vem (2022), o Grupo contratou a empresa MIG - Soluções Técnologicas para realizar medições e implementar métricas de satisfação de clientes, ouvidoria e engajamento de funcionários. Nossa Equipe conta com diversos profissionais especializados para proporcionar o melhor rendimento e aproveitamento nos seus treinos. A MAXFIT conta com diversos profissionais de altissima qualidade e especializados, com estrutura de altissima qualidade e segurança, seguindo todas as normas e protocolos fornecidos pela secretária da saúde no <a href="https://www.gov.br/saude/pt-br/coronavirus/como-se-proteger" target="blank">combate ao Covid-19.</a>
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+                                        <!--Fim Sobre-->
+                                        <!--Inicio Planos-->
+    <section class="section" id="planos"> 
+        <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+            <h2><em>Planos</em></h2>
+            <i class="fas fa-dumbbell"></i>
+                                        <!-- Inicio Preços-->
+            <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+                <div class="col">
+                  <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                    <div class="card-header py-3 text-white bg-primary border-primary">
+                      <h4 class="my-0 fw-normal">Básico</h4>
+                    </div>
+                    <div class="card-body">
+                      <h1 class="card-title pricing-card-title">R$79,90<small class="text-muted fw-light">/mês</small></h1>
+                      <ul class="list-unstyled mt-3 mb-4">
+                        <li>Acesso ilimitado a todas áreas da academia</li>
+                        <li>Área de musculação e aeróbicos</li>
+                        <li>Funcional gratuíto 1 vez na semana</li>
+                        <li>Sem taxa de cancelamento</li>
+                      </ul>
+                      <button type="button" class="w-100 btn btn-lg btn-outline-primary"><a href="#matricula">Realizar Pré Matricula</a></button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                    <div class="card-header py-3 text-white bg-primary border-primary">
+                      <h4 class="my-0 fw-normal">Intermediário</h4>
+                    </div>
+                    <div class="card-body">
+                      <h1 class="card-title pricing-card-title">R$250,00<small class="text-muted fw-light">/3 meses</small></h1>
+                      <ul class="list-unstyled mt-3 mb-4">
+                        <li>Área de Ginástica</li>
+                        <li>Avaliação Física Gratuita</li>
+                        <li>Acesso ilimitado a todas áreas da academia</li>
+                        <li>Área de musculação e aeróbicos</li>
+                        <li>Taxa de cancelamento</li>
+                      </ul>
+                      <button type="button" class="w-100 btn btn-lg btn-outline-primary"><a href="#matricula">Realizar Pré Matricula</a></button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                    <div class="card-header py-3 text-white bg-primary border-primary">
+                      <h4 class="my-0 fw-normal">Master</h4>
+                    </div>
+                    <div class="card-body">
+                      <h1 class="card-title pricing-card-title">R$450,00<small class="text-muted fw-light">/6 meses</small></h1>
+                      <ul class="list-unstyled mt-3 mb-4">
+                        <li>Área de Ginástica</li>
+                        <li>Avaliação Física Gratuita</li>
+                        <li> Leve até 3 convidados por mês</li>
+                        <li>Acesso ilimitado a todas áreas da academia</li>
+                        <li>Área de musculação e aeróbicos</li>
+                        <li>Funcional gratuíto 1 vez por semana</li>
+                        <li>Taxa de cancelamento</li>
+                      </ul>
+                      <button type="button" class="w-100 btn btn-lg btn-outline-primary"><a href="#matricula">Realizar Pré Matricula</a></button>
+                    </div>
+                                     <!--Fim Preços-->
+                  </div>
+                </div>
+              </div>
+          </div>
+    </section>
+                                    <!--Fim Planos-->
+                                    <!--Inicio Contatos-->
+    <section class="section" id="contatos">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 offset-lg-1">
+                    <div class="cta-content">
+                        <h2><em>Contatos</em></h2>
+                        <i class="fas fa-dumbbell" style="color: #CCC;"></i>
+                        <p>Abaixo estão todas as nossas formas de contato:</p>
+                        <a href="https://wa.me/5581981331965" target="_blank"><i class="fab fa-whatsapp" style="color: #fff;"></i></a>
+                        <a href="https://accounts.google.com/AccountChooser/signinchooser?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&flowName=GlifWebSignIn&flowEntry=AccountChooser" target="_blank"><i class="far fa-envelope" style="color: #fff;"></i></a>
+                        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram" style="color: #fff;"></i></a>
+                        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook" style="color: #fff;"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+                    <!--Fim Contatos-->
+                    <!--Inicio Pré Matricula-->
+    <section class="section" id="matricula">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-xs-12">
+              <div id="map">    
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1975.0878016124361!2d-34.94999104211783!3d-8.083566742984326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab1ea0c3c60ddd%3A0x1c0ded6343511d4c!2sR.%20Leandro%20Barreto%2C%20539%20-%20Jardim%20S%C3%A3o%20Paulo%2C%20Recife%20-%20PE%2C%2054720-140!5e0!3m2!1spt-BR!2sbr!4v1627234037730!5m2!1spt-BR!2sbr" width="100%" height="750px" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+              </div>
+            </div>
+
+            <!--Formulário-->
+            <div class="col-lg-6 col-md-6 col-xs-12">
+              <div class="formulario">
+                 <form id="form-contato" name="formulario" action="php/querecebe.php" method="POST" >
+                  <div class="row">
+                    <h2>Realize abaixo a sua <em>Pré Matricula</em></h2>
+                    <p>Após deixar suas informações entraremos em contato, através do E-mail ou telefone. <em> Os campos marcados com * são obrigatórios.</em></p>
+                    <div class="col-md-6 col-sm-12">
+                      <fieldset>
+                        <input name="nome" id="name" type="text" placeholder="Seu Nome*" required  maxlength="35">
+                      </fieldset>
+                    </div>
+                    
+                    <div class="col-md-6 col-sm-12">
+                      <fieldset>
+                        <input name="email" id="email" type="email"  placeholder="Seu E-mail*"  required maxlength="40">
+                      </fieldset>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                      <fieldset>
+                        <input name="telefone" id="telefone" type="text"  placeholder="Seu telefone*"  required onkeypress="mascara(this, '## #####-####'); return somenteNumeros(event)"  maxlength="13" onkeypress="somenteNumeros()">
+                      </fieldset>
+                    </div>
+
+                    <div class="col-md-6 col-sm-12 col-lg-12"> 
+                      <fieldset> 
+                        <select name="selecao" id="select" required> 
+                          <option value="">Selecione o Plano*</option>
+                          <option value="Plano Basico">Plano Básico</option>
+                          <option value="Plano Intermediário">Plano Intermediário</option>
+                          <option value="Plano Vip">Plano Vip</option>
+                        </select>
+                      </fieldset> 
+                    </div>
+                    
+                    <div class="col-lg-12">
+                      <fieldset>
+                        <textarea name="observacao" rows="6" placeholder="Digite Aqui se tiver alguma duvida"></textarea>
+                      </fieldset>
+                    </div>
+                    <div class="col-lg-12">
+                      <fieldset>
+                        <button type="submit" id="form-submit" class="main-button" onclick="validar()">Enviar</button>
+                      </fieldset>
+                    </div>
+                  </div>
+                 </form>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+    </section>
+                    <!--Fim Pré Matricula-->
+                    <!--Início Rodapé-->
+    <footer>
+      <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <p>Copyright &copy; 2021 MAXFIT
+                
+                - Desenvolvido  por <a href="" class="tm-text-link">MIG - Soluções Técnologicas</a> <i class="fas fa-users-cog"></i></p>
+                      
+            </div>
+        </div>
+    </div>
+    </footer>
+                    <!--Fim Rodapé-->
+
+
+                    <!--Validação Formulário-->
+    <script src="Js/validar_formulario.js"></script>
+
+                        <!--Link Icone-->
+    <script src="https://kit.fontawesome.com/3048a8640d.js" crossorigin="anonymous"></script>
+                        <!--JQuery-->
+    <script src="Js/jquery-2.1.0.min.js"></script>
+
+                <!-- JavaScript Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+                      <!--Preloader-->
+    <script src="Js/scrollreveal.min.js"></script>
+
+                <!--Inicialização Global-->
+    <script src="Js/custom.js"></script>
+
+                  <!--Links Mascara-->
+    <script src="Js/mascara.js"></script>
+
+                  <!--Link Validação-->
+    <script src="Js/validar.js"></script>
+
+                  <!--Link validação somente de números-->
+    <script src="Js/telefone.js"></script>
+
+
+
+</body>
+</html>
